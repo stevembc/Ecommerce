@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main > #back_1 > img {
+    height: 90vh;
+    width: 100%;
+    padding-bottom: 10vh;
+}
+main > section {
+    width: 100%;
+    margin-bottom: 5%;
+}
+main > .photos {
+    background-color: tomato;
+    display: flex;
+    justify-content: space-around;
+}
+main > .photos > div {
+    width: 20vw;
+    height: 50vh;
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > .pub {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: thistle;
+}
+main > #ph_2 > div{
+    height: 85vh;
+    width: 30vw;
+}
+main > .newsletter {
+    background-color: yellow;
+    height: 40vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}

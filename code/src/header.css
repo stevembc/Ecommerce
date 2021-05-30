@@ -1,0 +1,32 @@
+nav {
+    background-color: tomato;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-decoration: black;
+    padding: 10px;
+    font-size: 1.2em;
+}
+#left *{
+    display: inline-block;
+    margin: 5px;
+}
+figcaption {
+    padding-right: 40px;
+}
+#center {
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#right *{
+    display: inline-block;
+    margin: 5px;
+}
+.ul {
+    background-color: turquoise;
+}

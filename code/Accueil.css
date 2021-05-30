@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+#background {
+    height: 100vh;
+    width: 100vw;
+}
+#contenu {
+    font-size: 2vw;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    display: flex;
+    justify-content: space-around;
+    transition: transform 1s;
+}
+#contenue :hover {
+    transform: skewY( 40deg );
+}
+.cta {
+    height: 60px;
+    width: 150px;
+    background-color:white;
+    padding: 5px;
+    border: 2px  solid #78909C;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px 1px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#femme {
+    position: absolute;
+    top: 50vh;
+    left: 25vw;
+
+}
+
+
+#homme {
+    position: absolute;
+    top: 50vh;
+    right: 25vw;
+}
